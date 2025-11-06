@@ -22,7 +22,7 @@ def query_llm(prompt_text):
     prompt='You are helping a prospective business partner write a 5 sentence informed and researched outreach message to a prospective customer, use the following information to draft a message and only include the content of the message with the name of the customer. Dont include a subject line. The following content is the customer you are writing to: '
     try:
         completion = client.chat.completions.create(
-            model="x-ai/grok-4-fast",
+            model="google/gemini-2.5-flash-lite",
             messages=[
                 {"role": "user", "content": prompt+prompt_text}
             ]
