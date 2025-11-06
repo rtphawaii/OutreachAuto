@@ -5,17 +5,6 @@ It allows users to search by **company**, **job title**, or **keyword**, and aut
 
 ---
 
-## Demo: 
-
-[demo video here](https://vimeo.com/1134091407?share=copy&fl=sv&fe=ci)
-
-1. Search your company and title
-![Search](./assets/1.png)
-2. See the results and save to .csv
-![See Results](./assets/2.png)
-3. View the .csv
-![View Spreadsheet](./assets/3.png)
-
 ## 🌟 Overview
 
 OutreachAuto combines web search, AI-generated personalization, and a clean, intuitive interface to simplify your prospecting workflow.
@@ -99,5 +88,18 @@ python manage.py migrate
 python manage.py runserver
 # open http://127.0.0.1:8000
 ```
+
+---
+
+## Demo: 
+
+[demo video here](https://vimeo.com/1134091407?share=copy&fl=sv&fe=ci)
+
+1. Search your company and title
+![Search](./assets/1.png)
+2. See the results and save to .csv
+![See Results](./assets/2.png)
+3. View the .csv
+![View Spreadsheet](./assets/3.png)
 
 
